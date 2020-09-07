@@ -86,6 +86,36 @@ nav{
     width: 30%;
 }
 
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+footer a{
+    color: #ffff;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+footer nav a:hover{
+    border-bottom: 2px solid aqua;
+    border-left: 2px solid aqua;
+    border-right: 2px solid aqua;
+    border-radius: 100%;
+}
+
+.logo__footer{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 @media screen and (max-width: 768px){
     .top_nav a:not(:first-child){
         display: none;
