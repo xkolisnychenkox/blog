@@ -1,0 +1,34 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "first api",
+  "main": "dist/src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkolisnychenkox/blog.git"
+  },
+  "author": "Kolisnychenko Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkolisnychenkox/blog/issues"
+  },
+  "homepage": "https://github.com/xkolisnychenkox/blog#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.6.4",
+    "docker-compose": "^0.23.5",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/pg": "^7.14.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  }
+}
